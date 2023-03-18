@@ -5,7 +5,7 @@
   * main  - programs entry point
   * description : 'if control structures'
   * Return : is always zero
-  */
+ */
 int main(void)
 {
 	int n;
