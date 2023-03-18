@@ -2,7 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
-  *main  - programs entry point
+  * main  - programs entry point
+  *description - if control structures
+  *return - is always zero
   */
 int main(void)
 {
