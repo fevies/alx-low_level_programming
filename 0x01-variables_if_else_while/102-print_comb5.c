@@ -1,11 +1,10 @@
- (46 sloc)  754 Bytes
 #include <stdio.h>
- /**
-    * main - Program prints all posible combination of two two-digit numbers
-     *
-      * Return: alway 0
-       */
- int main(void)
+/**
+   * main - Program prints all posible combination of two two-digit numbers
+    *
+     * Return: alway 0
+      */
+int main(void)
 {
 	int num1, num2, num3, num4, numOut1, numOut2;
 
