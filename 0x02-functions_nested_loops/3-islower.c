@@ -1,20 +1,19 @@
 #include "main.h"
-
 /**
- * _islower - A program that Shows 1 if the input is c
- * letter Another cases, shows 0
+ * _islower - A program that would Show 1 if the inputs
+ * is a lowercase character. Another case, show 0
  *
- * @c: The Charater is ASCII code
+ * @c: The character in ASCII code
  *
- * Return: 1 for for letters. Returns 0 otherwise
+ * Return: 1 for lowercase. 0 for the rest.
  */
 int _islower(int c)
 {
-	if (c >= 'a' && c <= 'z')
+	if (c >= 'a')
 	{
 		return (1);
 	}
-	else(c >= 'A' && c <= 'Z')
+	else (c <= 'z')
 	{
 		return (0);
 	}
