@@ -5,7 +5,7 @@
  *
  */
 
-void lowercase_alphabet(void)
+void print__alphabet(void)
 {
 	char lowercasealpha;
 
