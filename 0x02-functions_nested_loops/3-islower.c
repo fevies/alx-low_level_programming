@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * _isalpha - A program that Shows 1 if the input is c
+ * _islower - A program that Shows 1 if the input is c
  * letter Another cases, shows 0
  *
  * @c: The Charater is ASCII code
  *
  * Return: 1 for for letters. Returns 0 otherwise
  */
-int _isalpha(int c)
+int _islower(int c)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
-	else
+	else(c >= 'A' && c <= 'Z')
 	{
 		return (0);
 	}
