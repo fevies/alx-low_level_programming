@@ -1,32 +1,26 @@
-
 #include "main.h"
 
 /**
- * jack_bauer - A program that prints minute of the day
- * Return: void
+ * print_last_digit - A program that prints the last digit
+ * of a number.
+ *
+ * @n: input number as an integer.
+ *
+ * Return: last digit.
  */
-void jack_bauer(void)
+int print_last_digit(int n)
 {
-	int a, b, c, d;
+	int numb;
 
-	for (a = 48; a <= 50; a++)
+	numb = n % 10;
+	if (numb < 0)
 	{
-		for (b = 48; b <= 57; b++)
-		{
-			for (c = 48; c <= 53; c++)
-			{
-				for (d = 48; d <= 57; d++)
-				{
-					if (a >= 50 && b >= 52)
-					break;
-					_putchar(a);
-					_putchar(b);
-					_putchar(58);
-					_putchar(c);
-					_putchar(d);
-					_putchar('\n');
-				}
-			}
-		}
+		_putchar(-numb + '0');
+		return (-numb);
+	}
+	else
+	{
+		_putchar(numb + '0');
+		return (numb);
 	}
 }
