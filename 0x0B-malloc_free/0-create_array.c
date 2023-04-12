@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * create_array - an array that  initializes it with a specific char. 
+ * create_array - an array that  initializes it with a specific char.
  * @size: used as a storage variable
  * @c: used as a storage variable
  * Return: returns pointer value
