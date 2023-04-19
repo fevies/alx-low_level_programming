@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
-  * main  - programs entry point
-  * description : 'if control structures'
-  * Return : is always zero
+ * main	- checks if number is positive,negative or zero
+ * description: 'if control structures'
+ * Return: is always zero
  */
 int main(void)
 {
