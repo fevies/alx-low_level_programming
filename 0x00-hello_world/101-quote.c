@@ -1,7 +1,8 @@
 #include <unistd.h>
 /**
+ * main	- prints the value of a string
  *
- *
+ * Return: value is 1
  */
 int main(void)
 {
