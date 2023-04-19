@@ -1,9 +1,12 @@
-	#include <stdio.h>
-	/*with proper grammar, but the outcome is a piece of art
-	 *
-	 */
-	int main(void)
-	{
-		printf("%s", "with proper grammar, but the outcome is a piece of art,\n"6-size.c);
-		return 0;
-	}
+#include <stdio.h>
+/**
+ * main	- prints a string
+ *
+ * Return: returns a value of 0
+ *
+ */
+int main(void)
+{
+	printf("with proper grammar, but the outcome is a piece of art,");
+	return (0);
+}
