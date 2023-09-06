@@ -2,7 +2,7 @@
 /**
  *main - programs entry point
  *@argc: count command line
- *@argv: argument velocity
+ *@argv: argument vector
  *
  *Return: zero
  */
